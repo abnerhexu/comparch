@@ -1,0 +1,33 @@
+site_name: 计算机体系结构课程网站 | 沙河小分队
+
+theme:
+  name: material
+  palette:
+    primary: custom
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.path
+    - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  homepage: https://computerarchitecture.shalicon.org
+
+plugins:
+  - search
+
+repo_url: https://github.com/abnerhexu/uc-1
+repo_name: abnerhexu/uc-1
+
+nav:
+  - 课程:
+    - 第一讲：计算机体系结构的基本概念: 'lecs/lec1.md'
+  - 实验:
+    - 实验一: 'labs/lab1.md'
+  - 阅读材料:
+    - 计算机体系结构基本概念: 'material/mat1.md'
