@@ -1,6 +1,6 @@
 # 欢迎参加《计算机体系结构》课程！
 
-课程网站是 [computerarch.shalicon.org](https://computerarch.shalicon.org)。
+课程网站是 [computerarchitecture.shalicon.org](https://computerarchitecture.shalicon.org)。
 
 ## 关于这门课程
 

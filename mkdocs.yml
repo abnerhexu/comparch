@@ -11,6 +11,7 @@ theme:
     - navigation.tabs
     - navigation.path
     - search.suggest
+    - content.tabs.link
 
 extra_css:
   - stylesheets/extra.css
@@ -24,10 +25,15 @@ plugins:
 repo_url: https://github.com/abnerhexu/uc-1
 repo_name: abnerhexu/uc-1
 
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
 nav:
   - 课程:
     - 第一讲：计算机体系结构的基本概念: 'lecs/lec1.md'
   - 实验:
     - 实验一: 'labs/lab1.md'
   - 阅读材料:
-    - 计算机体系结构基本概念: 'material/mat1.md'
+    - 计算机体系结构基本概念: 'material/reading1.md'
